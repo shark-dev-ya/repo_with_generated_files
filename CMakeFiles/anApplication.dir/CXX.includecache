@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/mnt/c/dev/cmake_project_example/cmake_project_example/SecretClass.cpp
+SecretClass.h
+/mnt/c/dev/cmake_project_example/cmake_project_example/SecretClass.h
+iostream
+-
+
+/mnt/c/dev/cmake_project_example/cmake_project_example/SecretClass.h
+
+/mnt/c/dev/cmake_project_example/cmake_project_example/main.cpp
+iostream
+-
+SecretClass.h
+/mnt/c/dev/cmake_project_example/cmake_project_example/SecretClass.h
+
